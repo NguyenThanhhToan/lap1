@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">Họ và tên</label>
+            <input type="text">
+        </div>
+        
+        <fieldset>
+            <legend>Ghi chú</legend>
+            <input type="radio" name="gerder">Nam</input>
+            <input type="radio" name="gerder">Nữ</input>
+        </fieldset>
+
+        <div>
+            <label for="">Ngày sinh: </label>
+            <input type="date"><br>
+            <label for="">Điểm: </label>
+            <input type="number" min="0" max="10" step="0.25"><br>
+            <label for="">Nghề nghiêp: </label>
+            <input type="list" id="1">
+            <datalist id="1">
+                <option value="Giáo viên"></option>
+                <option value="Bác sĩ"></option>
+                <option value="Kỹ sư"></option>
+                <option value="y tá"></option>
+                <option value="Phi công"></option>
+            </datalist>
+        </div>  
+    </form>
+</body>
+</html>
